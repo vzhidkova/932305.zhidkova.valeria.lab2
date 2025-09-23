@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Task 2.1</title>
+    <style>
+.header {
+    padding: 10px 10px 30px 10px;
+    background-color: #EAEAEA;
+}
+
+.footer {
+    background-color: #000;
+    text-align: center;
+    padding: 10px;
+}
+
+.footer a {
+    color: #FFFF80;
+}
+
+.content {
+    flex: 1 1 auto;
+    display: flex;
+    height: 100%;
+    align-items: flex-start;
+	line-height: 1.35em;
+}
+
+.left_column {
+    flex: 25% 0 0;
+    background-color: #C8FC98;
+    padding: 5px 10px;
+}
+
+.right_column {
+    flex: 200px 0 0;
+    background-color: #FDE95E;
+    padding: 5px 10px;
+}
+
+.content__text {
+    flex: auto 1 1;
+    padding: 5px 10px;
+}
+
+.content__column-title {
+    display: inline;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.content__column-title span {
+    color: red;
+}
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <h1>CSS Liquid-Layout #2.1 - (Fixed-Fluid)</h1>
+        </header>
+        <section class="content">
+            <aside class="left_column">
+                <h2 class="content__column-title">Left column: <span><em>25%</em></span></h2>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse mollis libero lacinia, dictum nulla quis, lobortis turpis. Quisque auctor porta convallis. Proin vulputate placerat lectus et imperdiet. Donec pulvinar tempor posuere. Fusce nibh dolor, ornare vel egestas in, condimentum vel mi. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam ac eleifend dui. Praesent malesuada sagittis odio vitae gravida. Donec sodales diam turpis, sed blandit ante bibendum sed. Vestibulum feugiat lectus a felis porttitor, id cursus purus ultricies. Nulla molestie pulvinar ipsum, eget fermentum urna ullamcorper non. In lacinia nisi at elit efficitur, ut congue nulla tempus. Donec et urna varius, efficitur felis at, blandit elit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin quis convallis nibh, eget interdum turpis.
+            </aside>
+            <div class="content__text">
+                <h2 class="content__column-title">Content column: <span><em>Fluid</em></span></h2>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse mollis libero lacinia, dictum nulla quis, lobortis turpis. Quisque auctor porta convallis. Proin vulputate placerat lectus et imperdiet. Donec pulvinar tempor posuere. Fusce nibh dolor, ornare vel egestas in, condimentum vel mi. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam ac eleifend dui. Praesent malesuada sagittis odio vitae gravida. Donec sodales diam turpis, sed blandit ante bibendum sed. Vestibulum feugiat lectus a felis porttitor, id cursus purus ultricies. Nulla molestie pulvinar ipsum, eget fermentum urna ullamcorper non. In lacinia nisi at elit efficitur, ut congue nulla tempus. Donec et urna varius, efficitur felis at, blandit elit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin quis convallis nibh, eget interdum turpis.
+            </div>
+        
+        <div class = " right_column"> <b> Right Column: <span style = "color: red"><i>200px</i></span></b>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse mollis libero lacinia, dictum nulla quis, lobortis turpis. Quisque auctor porta convallis. Proin vulputate placerat lectus et imperdiet. Donec pulvinar tempor posuere. Fusce nibh dolor, ornare vel egestas in, condimentum vel mi. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam ac eleifend dui. Praesent malesuada sagittis odio vitae gravida. Donec sodales diam turpis, sed blandit ante bibendum sed. Vestibulum feugiat lectus a felis porttitor, id cursus purus ultricies. Nulla molestie pulvinar ipsum, eget fermentum urna ullamcorper non. In lacinia nisi at elit efficitur, ut congue nulla tempus. Donec et urna varius, efficitur felis at, blandit elit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin quis convallis nibh, eget interdum turpis.
+        </div>
+        
+        </section>
+        <footer class="footer">
+            <a href="www.csd.tsu.ru">www.csd.tsu.ru</a>
+        </footer>
+    </div>
+</body>
+</html>
